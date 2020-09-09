@@ -23,8 +23,7 @@ hppManager.cardPaymentButtonText = @"Pay";
 
 hppManager.secretKey = @"";
     
-    
-[hppManager presentViewInViewController:self];
+[self presentViewController:hppManager animated:YES completion:nil];
 ```
 
 ## Author
